@@ -1,0 +1,49 @@
+.top-bar{
+    padding: 1rem 0;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    color: $primary;
+}
+
+.btn-light {
+   background-color: #fff;
+   border-color: #dee2e6;
+   color: #212529; 
+}
+
+.btn-light:hover{
+    border-color: #c1c9d0;
+    color: $primary;
+}
+
+.btn-light:hover i{   
+    color: $primary;
+}
+
+.btn-light i{
+    color: #9da1a7;
+}
+
+.slider{
+    &__nav{
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .slider{
+        &__nav{
+            max-height: 300px;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .slider{
+        &__nav{
+            max-height: 350px;
+        }
+    }
+}
